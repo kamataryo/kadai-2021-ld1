@@ -25,4 +25,7 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-    - run: echo こんにちは
+    - run: echo テスト実行
+    - run: echo ビルド実行
+    - run: echo リリース実行
+
